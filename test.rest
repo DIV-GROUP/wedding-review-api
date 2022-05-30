@@ -1,0 +1,21 @@
+# POST http://localhost:8800/api/users/signup
+# Content-Type: application/json
+
+# {
+#     "firstname": "Racheal",
+#     "lastname": "Kuranchie",
+#     "email": "kuranchieracheal@gmail.com",
+#     "password": "coconut20"   
+# }
+
+
+#GET  http://localhost:8800/api/users/verify-email/1/4f8081285df115bb3d0bf25f1f601832
+
+
+POST http://localhost:8800/api/users/login
+Content-Type: application/json
+
+{
+    "email": "kuranchieracheal@gmail.com",
+    "password": "coconut20"   
+}
